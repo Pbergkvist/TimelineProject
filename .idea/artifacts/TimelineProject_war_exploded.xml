@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TimelineProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TimelineProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TimelineProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TimelineProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.2.12-5.2.12" />
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="PrimeFaces-6.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/../payara41/glassfish/modules/cdi-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../payara41/glassfish/lib/mysql-connector-java-5.1.44-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
