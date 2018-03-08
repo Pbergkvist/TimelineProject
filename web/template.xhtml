@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <h:outputScript library="js" name="jquery.js"/>
+    <h:outputStylesheet library="css" name="style.css"/>
+    <h:outputStylesheet library="css" name="tlayout.css"/>
+    <title>Steven Spielberg Timeline</title>
+
+
+</h:head>
+
+<h:body>
+
+    <div id="header">
+        <ui:insert name="header">
+            <div class="titleText">
+                <p>Steven Spielberg Timeline
+                    <br/>A timeline about Steven Spielberg, one of the greatest movie producers in history.
+                </p></div>
+        </ui:insert>
+    </div>
+
+    <div id="content" class="main_content">
+        <ui:insert name="content"></ui:insert>
+    </div>
+
+    <div id="footer">
+        <ui:insert name="footer">
+
+            <div class="footer">
+                <div id="button"></div>
+                <div id="container">
+                    <div id="cont">
+                        <div class="footer_center">
+                            <h3>Team Grön: Per-Emil Bergkvist, Niklas Gjörloff</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ui:insert>
+    </div>
+
+
+</h:body>
+</html>
